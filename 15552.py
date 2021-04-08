@@ -1,3 +1,4 @@
+# 빠른 A+B
 import sys
 n = int(sys.stdin.readline().rstrip())
 

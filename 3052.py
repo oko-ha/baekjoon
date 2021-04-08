@@ -1,3 +1,4 @@
+# 나머지
 from collections import Counter
 num = []
 for i in range(10):

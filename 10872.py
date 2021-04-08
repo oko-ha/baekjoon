@@ -1,3 +1,4 @@
+# 팩토리얼
 def factorial(a):
     answer = 1
     if a > 0:

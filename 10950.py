@@ -1,3 +1,4 @@
+# A+B -3
 n = int(input())
 ans = []
 for i in range(n):

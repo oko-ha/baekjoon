@@ -1,3 +1,4 @@
+# 피보나치 수 5
 def fibonacci(n):
     ans = 1
     if n > 2:

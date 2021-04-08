@@ -1,3 +1,4 @@
+# 평균은 넘겠지
 n = int(input())
 ans = []
 for i in range(n):

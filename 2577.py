@@ -1,3 +1,4 @@
+# 숫자의 개수
 from collections import Counter
 
 a = int(input())

@@ -1,3 +1,4 @@
+# OX퀴즈
 ans = []
 n = int(input())
 for i in range(n):

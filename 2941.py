@@ -1,3 +1,4 @@
+# 크로아티아 알파벳
 import re
 a = input()
 s = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']

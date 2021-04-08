@@ -1,3 +1,4 @@
+# 분해합
 n = input()
 l = len(n)
 n = int(n)

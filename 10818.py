@@ -1,4 +1,4 @@
-lst = []
-for i in range(9):
-    lst.append(int(input()))
-print(max(lst), lst.index(max(lst)) + 1)
+# 최소, 최대
+input()
+lst = list(map(int, input().split()))
+print(min(lst), max(lst))

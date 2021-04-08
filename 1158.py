@@ -1,3 +1,4 @@
+# 요세푸스 문제
 import re
 n, k = map(int, input().split())
 

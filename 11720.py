@@ -1,3 +1,4 @@
+# 숫자의 합
 input()
 s = input()
 sum = 0

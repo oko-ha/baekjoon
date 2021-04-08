@@ -1,3 +1,4 @@
+# 그룹 단어 체커
 ans = 0
 for _ in range(int(input())):
     s = input()

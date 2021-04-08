@@ -1,3 +1,4 @@
+# 곱셈
 a = int(input())
 b = input()
 print(a*int(b[2]))

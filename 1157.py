@@ -1,3 +1,4 @@
+# 단어 공부
 from collections import Counter
 n = input().upper()
 h = Counter(n)

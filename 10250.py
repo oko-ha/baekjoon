@@ -1,3 +1,4 @@
+# ACM 호텔
 import math
 for _ in range(int(input())):
     h, w, n = map(int, input().split())

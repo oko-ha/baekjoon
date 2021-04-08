@@ -1,3 +1,4 @@
+# 평균
 input()
 lst = list(map(int, input().split()))
 m = max(lst)
