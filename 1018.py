@@ -1,4 +1,9 @@
-# 체스판 다시 칠하기
+# https://www.acmicpc.net/problem/1018
+# 이름 : 체스판 다시 칠하기
+# 번호 : 1018
+# 난이도 : 실버 V
+# 분류 : 브루트포스 알고리즘
+
 a, b = map(int, input().split())
 lst = []
 for i in range(a):

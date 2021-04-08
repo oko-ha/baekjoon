@@ -1,4 +1,9 @@
-# 사분면 고르기
+# https://www.acmicpc.net/problem/14681
+# 이름 : 사분면 고르기
+# 번호 : 14681
+# 난이도 : 브론즈 IV
+# 분류 : 구현, 기하학
+
 x = int(input())
 y = int(input())
 if x > 0:

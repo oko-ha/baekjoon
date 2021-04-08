@@ -1,4 +1,9 @@
-# 평균은 넘겠지
+# https://www.acmicpc.net/problem/4344
+# 이름 : 평균은 넘겠지
+# 번호 : 4344
+# 난이도 : 브론즈 I
+# 분류 : 수학, 사칙연산
+
 n = int(input())
 ans = []
 for i in range(n):

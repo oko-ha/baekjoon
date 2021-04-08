@@ -1,4 +1,9 @@
-# A+B -8
+# https://www.acmicpc.net/problem/11022
+# 이름 : A+B -8
+# 번호 : 11022
+# 난이도 : 브론즈 III
+# 분류 : 수학, 구현, 사칙연산
+
 n = int(input())
 ans = []
 for i in range(n):

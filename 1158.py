@@ -1,4 +1,9 @@
-# 요세푸스 문제
+# https://www.acmicpc.net/problem/1158
+# 이름 : 요세푸스 문제
+# 번호 : 1158
+# 난이도 : 실버 V
+# 분류 : 자료 구조, 큐
+
 import re
 n, k = map(int, input().split())
 

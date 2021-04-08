@@ -1,4 +1,9 @@
-# A+B -7
+# https://www.acmicpc.net/problem/11021
+# 이름 : A+B -7
+# 번호 : 11021
+# 난이도 : 브론즈 III
+# 분류 : 수학, 구현, 사칙연산
+
 n = int(input())
 ans = []
 for i in range(n):

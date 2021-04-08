@@ -1,4 +1,9 @@
-# 벌집
+# https://www.acmicpc.net/problem/2292
+# 이름 : 벌집
+# 번호 : 2292
+# 난이도 : 브론즈 II
+# 분류 : 수학
+
 n = int(input())
 
 i = 2

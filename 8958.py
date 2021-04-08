@@ -1,4 +1,9 @@
-# OX퀴즈
+# https://www.acmicpc.net/problem/8958
+# 이름 : OX퀴즈
+# 번호 : 8958
+# 난이도 : 브론즈 II
+# 분류 : 구현, 문자열
+
 ans = []
 n = int(input())
 for i in range(n):

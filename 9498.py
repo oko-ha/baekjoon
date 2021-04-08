@@ -1,4 +1,9 @@
-# 시험 성적
+# https://www.acmicpc.net/problem/9498
+# 이름 : 시험 성적
+# 번호 : 9498
+# 난이도 : 브론즈 IV
+# 분류 : 구현
+
 a = int(input())
 
 if a >= 90:

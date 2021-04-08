@@ -1,4 +1,9 @@
-# 분수찾기
+# https://www.acmicpc.net/problem/1193
+# 이름 : 분수찾기
+# 번호 : 1193
+# 난이도 : 브론즈 II
+# 분류 : 수학, 구현
+
 n = int(input())
 i = 0
 s = 0
