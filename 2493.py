@@ -2,7 +2,7 @@
 # 이름 : 탑
 # 번호 : 2493
 # 난이도 : 골드 V
-# 분류 :
+# 분류 : 자료 구조, 스택
 
 import sys
 n = int(sys.stdin.readline().rstrip())
@@ -13,22 +13,20 @@ ans = [0] * n
 tempTower = 0
 tempIndex = 0
 for i in range(n):
-    tower = towers.pop(0)
-    if tempTower >= tower:
+    if tempTower > towers[i]:
         ans[i] = tempIndex
     else:
         while stackTower:
             tempTower = stackTower.pop()
             tempIndex = stackIndex.pop()
-            if tempTower > tower:
+            if tempTower > towers[i]:
                 ans[i] = tempIndex
+                break
+    if i < n - 1:
+        if towers[i] > towers[i + 1]:
+            if tempTower != 0:
                 stackTower.append(tempTower)
                 stackIndex.append(tempIndex)
-                break
-    if len(towers) != 0:
-        if tower > towers[0]:
-            tempTower = tower
+            tempTower = towers[i]
             tempIndex = i + 1
-    stackTower.append(tower)
-    stackIndex.append(i + 1)
 print(*ans)
