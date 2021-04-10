@@ -1,3 +1,1 @@
-asdf = []
-if not asdf:
-    print('!')
+print(round(-1/3))
