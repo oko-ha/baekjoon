@@ -1,1 +1,2 @@
-print(round(-1/3))
+a = range(10)
+print(a)
