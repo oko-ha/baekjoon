@@ -21,3 +21,9 @@ for i in range(n):
         maxVal = -1000
 m.append(maxVal)
 print(max(m))
+
+# s = [number[0]]
+# for i in range(n - 1):
+#     s.append(max(s[i] + number[i + 1], number[i + 1]))
+# print(s)
+# print(max(s))
