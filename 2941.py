@@ -6,3 +6,5 @@
 
 import re
 print(len(re.sub('c=|c-|dz=|d-|lj|nj|s=|z=', '!', input())))
+
+# print(len(re.sub('dz=|[ln]j|\w\W','Z',input())))
