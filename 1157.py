@@ -5,13 +5,9 @@
 # 분류 : 구현, 문자열
 
 from collections import Counter
-n = input().upper()
-h = Counter(n)
-v = sorted(list(h.items()), key= lambda s: s[1], reverse=True)
-try:
-    if v[0][1] == v[1][1]:
-        print('?')
-    else:
-        print(v[0][0])
-except:
+s = list(Counter(input().upper()).items())
+v = sorted(s, key=lambda x:x[1], reverse=True)
+if len(v) == 1 or v[0][1] != v[1][1]:
     print(v[0][0])
+else:
+    print('?')

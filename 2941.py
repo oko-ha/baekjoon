@@ -5,8 +5,4 @@
 # 분류 : 구현, 문자열
 
 import re
-a = input()
-s = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
-for i in s:
-    a = re.sub(i, '!', a)
-print(len(a))
+print(len(re.sub('c=|c-|dz=|d-|lj|nj|s=|z=', '!', input())))
