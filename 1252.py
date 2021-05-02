@@ -2,7 +2,7 @@
 # 이름 : 이진수 덧셈
 # 번호 : 1252
 # 난이도 : 브론즈 I
-# 분류 : 수학, 구현, 사칙연산
+# 분류 : 수학, 구현,
 
 import sys
 a, b = sys.stdin.readline().split()
