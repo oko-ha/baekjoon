@@ -10,3 +10,5 @@ heap = []
 for _ in range(int(sys.stdin.readline().rstrip())):
     x = int(sys.stdin.readline().rstrip())
     heapq.heappush(heap, (x, x))
+
+# https://pongdangstory.tistory.com/471
