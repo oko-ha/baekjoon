@@ -5,7 +5,6 @@
 # 분류 : 수학, 구현, 사칙연산
 
 import sys
-n = int(sys.stdin.readline().rstrip())
-
-for i in range(n):
-    print(sum(map(int, sys.stdin.readline().split())))
+input = sys.stdin.readline
+for i in range(int(input())):
+    print(sum(map(int, input().split())))
