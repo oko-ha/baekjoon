@@ -13,4 +13,4 @@ for i in range(len(plain)):
         cipher += ' '
     else:
         cipher += chr(((ord(plain[i]) - ord(key[i % len(key)]) - 1) % 26) + 97)
-print(cipher)-
+print(cipher)
