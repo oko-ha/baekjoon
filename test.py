@@ -1,4 +1,5 @@
-a = [False]
-m = -1
-a += [True] * (m - len(a))
-print(a)
+dic = {}
+dic[1] = {}
+dic[1][5] = 2
+dic[1][2] = 3
+print(dic)
