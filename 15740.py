@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/status?user_id=oko_ha&problem_id=15740&from_mine=1
+# https://www.acmicpc.net/problem/15740
 # 이름 : A+B -9
 # 번호 : 15740
 # 난이도 : 브론즈 V
