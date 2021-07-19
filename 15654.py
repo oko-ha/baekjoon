@@ -1,0 +1,24 @@
+# https://www.acmicpc.net/problem/15654
+# 이름 : N과 M (5)
+# 번호 : 15654
+# 난이도 : 실버 III
+# 분류 : 백트래킹
+
+import sys
+input = sys.stdin.readline
+N, M = map(int, input().split())
+arr = sorted(list(map(int, input().split())))
+check = [True] * N
+ans = []
+def backtracking(k):
+    if k < M:
+        for i in range(N):
+            if check[i]:
+                check[i] = False
+                ans.append(arr[i])
+                backtracking(k + 1)
+                check[i] = True
+                ans.pop()
+    else:
+        print(' '.join(map(str, ans)))
+backtracking(0)
