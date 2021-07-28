@@ -2,7 +2,7 @@
 # 이름 : 꼬리를 무는 숫자 나열
 # 번호 : 1598
 # 난이도 : 브론즈 III
-# 분류 : 
+# 분류 : 수학, 사칙연산
 
 import sys
 a, b = map(int, sys.stdin.readline().split())
